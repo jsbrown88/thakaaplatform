@@ -1,0 +1,84 @@
+/* Main UI Styles */
+
+body {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+.main {
+    width: 75%;
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Purple Theme Styles */
+
+.purple-theme {
+    --primary-color: #6a0dad;
+}
+
+.purple-theme .header,
+.purple-theme .sidebar,
+.purple-theme .main,
+.purple-theme .footer {
+    background-color: var(--primary-color);
+}

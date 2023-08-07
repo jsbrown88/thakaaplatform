@@ -1,0 +1,52 @@
+.verificationBadge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4b0082;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.verificationBadge:hover {
+    box-shadow: 0 0 10px 5px rgba(75, 0, 130, 0.2);
+}
+
+.verificationForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.verificationForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.verificationForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4b0082;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.verificationForm button:hover {
+    background-color: #6a0dad;
+}

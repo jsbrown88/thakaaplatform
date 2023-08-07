@@ -1,0 +1,48 @@
+.chatContainer {
+    background-color: #2c2c2c;
+    border-radius: 5px;
+    padding: 20px;
+    color: #ffffff;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.messageInput {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sendButton {
+    background-color: #6c5ce7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.reportButton {
+    background-color: #d63031;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.chatMessage {
+    background-color: #6c5ce7;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.chatMessage.otherUser {
+    background-color: #0984e3;
+}

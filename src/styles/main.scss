@@ -1,0 +1,64 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+// Import component styles
+@import 'components/_authentication.scss';
+@import 'components/_userProfile.scss';
+@import 'components/_productListing.scss';
+@import 'components/_chatSystem.scss';
+@import 'components/_investorAccount.scss';
+@import 'components/_doctorAccount.scss';
+@import 'components/_userSupport.scss';
+@import 'components/_trainingInfo.scss';
+@import 'components/_notifications.scss';
+@import 'components/_forum.scss';
+@import 'components/_feedback.scss';
+@import 'components/_verificationBadge.scss';
+@import 'components/_admin.scss';
+@import 'components/_seoAnalytics.scss';
+@import 'components/_ui.scss';
+
+body {
+  font-family: $font-family;
+  color: $font-color;
+  background-color: $background-color;
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+button {
+  padding: $button-padding;
+  background-color: $button-background-color;
+  color: $button-color;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: background-color $transition-duration;
+
+  &:hover {
+    background-color: $button-hover-background-color;
+  }
+}
+
+input, textarea {
+  width: 100%;
+  padding: $input-padding;
+  border: $input-border;
+  border-radius: $border-radius;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}

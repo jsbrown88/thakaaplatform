@@ -1,0 +1,50 @@
+#investorAccountContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.investorAccountContainer .editInvestorAccountButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.investorAccountContainer .editInvestorAccountButton:hover {
+    background-color: #a29bfe;
+}
+
+.investorAccountContainer .investorAccountDetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.investorAccountContainer .investorAccountDetails .detail {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #6c5ce7;
+    padding: 10px 0;
+}
+
+.investorAccountContainer .investorAccountDetails .detail:last-child {
+    border-bottom: none;
+}
+
+.investorAccountContainer .investorAccountDetails .detail .title {
+    font-weight: bold;
+    color: #a29bfe;
+}
+
+.investorAccountContainer .investorAccountDetails .detail .value {
+    color: #ffffff;
+}
