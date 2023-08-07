@@ -1,0 +1,2 @@
+# thakaaplatform
+thakaamed platform
